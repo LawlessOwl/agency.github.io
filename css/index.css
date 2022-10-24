@@ -1,0 +1,737 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+.html {
+  margin: 0 auto;
+  padding: 0;
+  width: 1806px; }
+
+.body {
+  padding: 0;
+  margin: 0; }
+
+.header {
+  padding: 0;
+  margin: 0;
+  height: 904px;
+  width: 1800px;
+  background-repeat: no-repeat;
+  background-blend-mode: multiply;
+  background-image: url(../media/Bitmap.jpg);
+  background-color: rgba(0, 0, 0, 0.6);
+  background-size: 100%; }
+  .header .navbar {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-right: 312.37px;
+    font-family: Oswald;
+    font-size: 14px;
+    color: #fff; }
+    .header .navbar .navbar-item:not(:last-child) {
+      margin-right: 58.4px; }
+    .header .navbar .navbar-item {
+      margin-top: 79px;
+      cursor: pointer;
+      background-image: linear-gradient(#4CAF50, #4CAF50);
+      background-position: 100% 100%;
+      background-repeat: no-repeat;
+      background-size: 30% 4px;
+      transition: background-size .3s; }
+      .header .navbar .navbar-item:hover {
+        background-size: 100% 4px; }
+  .header .title-box .main-title {
+    font-family: Oswald;
+    color: #fff;
+    font-size: 72px;
+    text-align: center;
+    margin-top: 270px; }
+  .header .title-box .second-title {
+    font-family: Open Sans;
+    text-align: center;
+    color: #fff;
+    font-size: 20px;
+    position: relative; }
+  .header .number {
+    font-family: Oswald;
+    font-size: 18px;
+    font-weight: 700;
+    color: rgba(255, 255, 255, 0.44);
+    display: flex;
+    flex-direction: row;
+    margin-left: 845.59px;
+    margin-top: 240px; }
+    .header .number .number-item {
+      position: relative;
+      top: 110px;
+      transition: 0.5s;
+      background-image: linear-gradient(#4CAF50, #4CAF50);
+      background-position: 100% 50%;
+      background-repeat: no-repeat;
+      background-size: 0% 2px; }
+      .header .number .number-item:not(:last-child) {
+        margin-right: 9px; }
+      .header .number .number-item:hover {
+        color: #fff;
+        cursor: pointer;
+        transition: 0.5s;
+        transform: scale(2);
+        background-size: 100% 2px; }
+
+.first-box .look-down {
+  z-index: 1;
+  position: absolute;
+  top: 1250px;
+  margin-left: 1050px; }
+.first-box .green-box {
+  z-index: 2;
+  position: absolute;
+  background-color: rgba(76, 175, 80, 0.8);
+  width: 309px;
+  height: 418px;
+  top: 1130px;
+  margin-left: 805px; }
+.first-box .man-image {
+  position: absolute;
+  height: 400px;
+  width: 300px;
+  margin-left: 550px;
+  margin-top: 132px;
+  z-index: 3;
+  opacity: 1; }
+.first-box .first-section-main {
+  z-index: 4;
+  font-family: Oswald;
+  font-size: 36px;
+  font-weight: 700;
+  color: #333333;
+  position: absolute;
+  margin-left: 365px;
+  top: 1100px; }
+.first-box .first-section-second {
+  z-index: 4;
+  font-family: Open Sans;
+  font-size: 42px;
+  color: #504E4E;
+  position: absolute;
+  top: 1150px;
+  margin-left: 365px; }
+.first-box .first-section-paragraph {
+  z-index: 4;
+  font-family: Open Sans;
+  font-size: 15px;
+  color: #5B5858;
+  position: absolute;
+  margin-left: 416px;
+  top: 1250px; }
+  .first-box .first-section-paragraph:before {
+    content: "-";
+    position: absolute;
+    bottom: 70px;
+    left: -20px;
+    font-family: Open Sans;
+    font-size: 30px;
+    height: 2px;
+    color: #353535; }
+.first-box .second-section-paragraph {
+  z-index: 4;
+  font-family: Open Sans;
+  font-size: 15px;
+  color: #5B5858;
+  position: absolute;
+  margin-left: 1266px;
+  top: 1505px; }
+  .first-box .second-section-paragraph:before {
+    content: "-";
+    position: absolute;
+    bottom: 70px;
+    left: -20px;
+    font-family: Open Sans;
+    font-size: 30px;
+    height: 2px;
+    color: #353535; }
+
+.first-item-main {
+  margin-left: 315px;
+  margin-top: 1000px;
+  margin-bottom: 94px;
+  font-family: Oswald;
+  font-size: 48px;
+  font-weight: 700;
+  background-image: linear-gradient(#252525, #252525);
+  background-position: 0% 100%;
+  background-repeat: no-repeat;
+  background-size: 4% 3px; }
+
+.first-block {
+  display: flex;
+  justify-content: center;
+  margin-left: 70px; }
+  .first-block .branding {
+    width: 373px;
+    height: 200px;
+    padding-left: 60px;
+    transition: 0.1s;
+    border-bottom: none; }
+    .first-block .branding:hover {
+      cursor: pointer;
+      border-bottom: 3px #4CAF50 solid;
+      transition: 0.1s; }
+    .first-block .branding .first-item-brand {
+      font-family: Oswald;
+      font-size: 30px;
+      background-image: linear-gradient(#252525, #252525);
+      background-position: 0% 100%;
+      background-repeat: no-repeat;
+      background-size: 4% 3px; }
+    .first-block .branding .first-item-info {
+      font-family: Open Sans;
+      font-size: 12px; }
+    .first-block .branding .first-item-read {
+      font-family: Oswald;
+      font-size: 10px; }
+
+.design {
+  width: 373px;
+  height: 200px;
+  padding-left: 60px;
+  transition: 0.1s;
+  border-bottom: none; }
+  .design:hover {
+    cursor: pointer;
+    border-bottom: 3px #4CAF50 solid;
+    transition: 0.1s; }
+  .design .second-item-brand {
+    font-family: Oswald;
+    font-size: 30px;
+    background-image: linear-gradient(#252525, #252525);
+    background-position: 0% 100%;
+    background-repeat: no-repeat;
+    background-size: 4% 3px; }
+  .design .second-item-info {
+    font-family: Open Sans;
+    font-size: 12px; }
+  .design .second-item-read {
+    font-family: Oswald;
+    font-size: 10px; }
+
+.development {
+  width: 373px;
+  height: 200px;
+  padding-left: 60px;
+  transition: 0.1s;
+  border-bottom: none; }
+  .development:hover {
+    cursor: pointer;
+    border-bottom: 3px #4CAF50 solid;
+    transition: 0.1s; }
+  .development .third-item-brand {
+    font-family: Oswald;
+    font-size: 30px;
+    background-image: linear-gradient(#252525, #252525);
+    background-position: 0% 100%;
+    background-repeat: no-repeat;
+    background-size: 4% 3px; }
+  .development .third-item-info {
+    font-family: Open Sans;
+    font-size: 12px; }
+  .development .third-item-read {
+    font-family: Oswald;
+    font-size: 10px; }
+
+.second-item-main {
+  margin-top: 345px;
+  margin-left: 315px;
+  display: flex;
+  font-family: Oswald;
+  font-size: 48px;
+  font-weight: 700;
+  background-image: linear-gradient(#252525, #252525);
+  background-position: 0% 100%;
+  background-repeat: no-repeat;
+  background-size: 4% 3px; }
+
+.second-block {
+  font-family: Open Sans;
+  font-size: 13px;
+  font-weight: 700;
+  color: lightgrey;
+  display: flex;
+  flex-direction: row; }
+  .second-block .menu-second-block {
+    position: relative;
+    top: 50px;
+    left: 310px; }
+    .second-block .menu-second-block:not(:last-child) {
+      margin-right: 40.5px; }
+    .second-block .menu-second-block:hover {
+      color: #252525;
+      cursor: pointer; }
+
+.photography {
+  display: inline-block;
+  position: relative;
+  left: 956px;
+  bottom: 150px; }
+  .photography .photography-main {
+    font-family: Oswald;
+    font-size: 48px;
+    font-weight: 300;
+    line-height: 71.14px;
+    letter-spacing: 3px;
+    position: relative;
+    right: 150px;
+    bottom: 190px;
+    transition: 0.1s; }
+    .photography .photography-main:hover {
+      cursor: pointer;
+      transition: 0.1s;
+      text-decoration: line-through;
+      text-decoration-color: #4CAF50; }
+  .photography .photography-name {
+    font-family: Open Sans;
+    font-size: 18px;
+    text-align: center;
+    position: relative;
+    bottom: 150px; }
+  .photography .photography-des {
+    font-family: Open Sans;
+    font-size: 13px;
+    text-align: right;
+    color: #c2c2c2;
+    position: relative;
+    right: 170px;
+    bottom: 130px; }
+  .photography .photography-read {
+    font-family: Open Sans;
+    font-size: 13px;
+    font-weight: bold;
+    position: relative;
+    left: 210px;
+    bottom: 110px;
+    transition: 0.1s; }
+    .photography .photography-read:hover {
+      cursor: pointer;
+      transition: 0.1s;
+      text-decoration: line-through 3px;
+      text-decoration-color: #4CAF50; }
+
+.kitten {
+  display: inline-block;
+  position: relative;
+  right: 230px;
+  top: 100px; }
+  .kitten .kitten-main {
+    font-family: Oswald;
+    font-size: 48px;
+    font-weight: 300;
+    line-height: 71.14px;
+    letter-spacing: 3px;
+    position: relative;
+    left: 360px;
+    bottom: 150px;
+    transition: 0.1s; }
+    .kitten .kitten-main:hover {
+      cursor: pointer;
+      transition: 0.1s;
+      text-decoration: line-through;
+      text-decoration-color: #4CAF50; }
+  .kitten .kitten-name {
+    font-family: Open Sans;
+    font-size: 18px;
+    text-align: center;
+    position: relative;
+    bottom: 130px; }
+  .kitten .kitten-des {
+    font-family: Open Sans;
+    font-size: 13px;
+    text-align: left;
+    color: #c2c2c2;
+    position: relative;
+    left: 170px;
+    bottom: 100px; }
+  .kitten .kitten-read {
+    font-family: Open Sans;
+    font-size: 13px;
+    font-weight: bold;
+    position: relative;
+    left: 170px;
+    bottom: 70px;
+    transition: 0.1s; }
+    .kitten .kitten-read:hover {
+      cursor: pointer;
+      transition: 0.1s;
+      text-decoration: line-through 3px;
+      text-decoration-color: #4CAF50; }
+
+.mac {
+  display: inline-block;
+  position: relative;
+  top: 450px;
+  margin-left: 10px; }
+  .mac .mac-main {
+    font-family: Oswald;
+    font-size: 48px;
+    font-weight: 300;
+    line-height: 71.14px;
+    letter-spacing: 3px;
+    position: relative;
+    right: 150px;
+    bottom: 190px;
+    transition: 0.1s; }
+    .mac .mac-main:hover {
+      cursor: pointer;
+      transition: 0.1s;
+      text-decoration: line-through;
+      text-decoration-color: #4CAF50; }
+  .mac .mac-name {
+    font-family: Open Sans;
+    font-size: 18px;
+    text-align: center;
+    position: relative;
+    bottom: 150px;
+    left: 30px; }
+  .mac .mac-des {
+    font-family: Open Sans;
+    font-size: 13px;
+    text-align: right;
+    color: #c2c2c2;
+    position: relative;
+    right: 140px;
+    bottom: 130px; }
+  .mac .mac-read {
+    font-family: Open Sans;
+    font-size: 13px;
+    font-weight: bold;
+    position: relative;
+    left: 240px;
+    bottom: 110px;
+    transition: 0.1s; }
+    .mac .mac-read:hover {
+      cursor: pointer;
+      transition: 0.1s;
+      text-decoration: line-through 3px;
+      text-decoration-color: #4CAF50; }
+
+.apple {
+  display: inline-block;
+  position: relative;
+  margin-left: 220px;
+  top: 160px; }
+  .apple .apple-main {
+    font-family: Oswald;
+    font-size: 48px;
+    font-weight: 300;
+    line-height: 71.14px;
+    letter-spacing: 3px;
+    position: relative;
+    left: 360px;
+    bottom: 200px;
+    transition: 0.1s; }
+    .apple .apple-main:hover {
+      cursor: pointer;
+      transition: 0.1s;
+      text-decoration: line-through;
+      text-decoration-color: #4CAF50; }
+  .apple .apple-name {
+    font-family: Open Sans;
+    font-size: 18px;
+    text-align: center;
+    position: relative;
+    bottom: 130px; }
+  .apple .apple-des {
+    font-family: Open Sans;
+    font-size: 13px;
+    text-align: left;
+    color: #c2c2c2;
+    position: relative;
+    left: 170px;
+    bottom: 100px; }
+  .apple .apple-read {
+    font-family: Open Sans;
+    font-size: 13px;
+    font-weight: bold;
+    position: relative;
+    left: 170px;
+    bottom: 70px;
+    transition: 0.1s; }
+    .apple .apple-read:hover {
+      cursor: pointer;
+      transition: 0.1s;
+      text-decoration: line-through 3px;
+      text-decoration-color: #4CAF50; }
+
+.view {
+  font-family: Oswald;
+  font-size: 13px;
+  font-weight: 400;
+  margin-left: 1300px;
+  margin-top: 100px;
+  cursor: pointer; }
+  .view:hover {
+    color: #4CAF50; }
+
+.team-title {
+  margin-top: 345px;
+  margin-left: 315px;
+  display: flex;
+  font-family: Oswald;
+  font-size: 48px;
+  font-weight: 700;
+  background-image: linear-gradient(#252525, #252525);
+  background-position: 0% 100%;
+  background-repeat: no-repeat;
+  background-size: 4% 3px; }
+
+.team-photo {
+  margin-top: 74px;
+  overflow: hidden;
+  width: 100%;
+  list-style: none;
+  text-align: center; }
+  .team-photo:not(:last-child) {
+    margin-right: 30px; }
+  .team-photo .tom {
+    position: relative;
+    z-index: 1;
+    display: inline-block;
+    text-align: center;
+    cursor: pointer; }
+    .team-photo .tom:hover .tom-text {
+      transition: 0.5s;
+      top: 250px;
+      background-color: #fbfbfb; }
+    .team-photo .tom:hover .tom-name {
+      text-decoration: underline 3px #353535;
+      text-underline-offset: 15px; }
+  .team-photo .tom-photo {
+    position: relative;
+    display: block;
+    opacity: 0.6; }
+  .team-photo .tom-text {
+    transition: 0.5s;
+    background-color: rgba(255, 255, 255, 0.5);
+    font-family: Oswald;
+    font-size: 18px;
+    font-weight: 300;
+    position: absolute;
+    top: 350px;
+    left: 0;
+    width: 100%;
+    height: 100%; }
+  .team-photo .tom-name {
+    margin-top: 10px;
+    padding-bottom: 20px; }
+  .team-photo .tom-dis {
+    padding-top: 10px;
+    font-family: Open Sans;
+    font-size: 12px;
+    color: #7777; }
+  .team-photo .michael {
+    position: relative;
+    z-index: 1;
+    display: inline-block;
+    text-align: center;
+    cursor: pointer; }
+    .team-photo .michael:hover .michael-text {
+      transition: 0.5s;
+      top: 250px;
+      background-color: #fbfbfb; }
+    .team-photo .michael:hover .michael-name {
+      text-decoration: underline 3px #353535;
+      text-underline-offset: 15px; }
+  .team-photo .michael-photo {
+    position: relative;
+    display: block;
+    opacity: 0.8; }
+  .team-photo .michael-text {
+    transition: 0.5s;
+    background-color: rgba(255, 255, 255, 0.5);
+    font-family: Oswald;
+    font-size: 18px;
+    font-weight: 300;
+    position: absolute;
+    top: 350px;
+    left: 0;
+    width: 100%;
+    height: 100%; }
+  .team-photo .michael-name {
+    margin-top: 10px;
+    padding-bottom: 20px; }
+  .team-photo .michael-dis {
+    padding-top: 10px;
+    font-family: Open Sans;
+    font-size: 12px;
+    color: #7777; }
+  .team-photo .tim {
+    position: relative;
+    z-index: 1;
+    display: inline-block;
+    text-align: center;
+    cursor: pointer; }
+    .team-photo .tim:hover .tim-text {
+      transition: 0.5s;
+      top: 250px;
+      background-color: #fbfbfb; }
+    .team-photo .tim:hover .tim-name {
+      text-decoration: underline 3px #353535;
+      text-underline-offset: 15px; }
+  .team-photo .tim-photo {
+    position: relative;
+    display: block;
+    opacity: 0.8; }
+  .team-photo .tim-text {
+    transition: 0.5s;
+    background-color: rgba(255, 255, 255, 0.5);
+    font-family: Oswald;
+    font-size: 18px;
+    font-weight: 300;
+    position: absolute;
+    top: 350px;
+    left: 0;
+    width: 100%;
+    height: 100%; }
+  .team-photo .tim-name {
+    margin-top: 10px;
+    padding-bottom: 20px; }
+  .team-photo .tim-dis {
+    padding-top: 10px;
+    font-family: Open Sans;
+    font-size: 12px;
+    color: #7777; }
+
+.last-block {
+  margin-right: 100px;
+  position: relative;
+  top: 300px; }
+  .last-block .last-title {
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 14px; }
+  .last-block .nine {
+    position: relative;
+    top: 35px;
+    left: 850px; }
+  .last-block .author .author-name {
+    position: relative;
+    top: 60px;
+    right: 30px;
+    font-family: Oswald;
+    font-size: 18px;
+    font-weight: 400;
+    color: #373737;
+    margin-right: 10px;
+    text-align: center; }
+  .last-block .author .job {
+    position: relative;
+    top: 38px;
+    left: 50px;
+    text-align: center;
+    font-family: Oswald;
+    font-size: 14px;
+    font-weight: 300;
+    color: #b8b8b8; }
+  .last-block .stars {
+    margin-top: 55px;
+    margin-left: 800px;
+    display: flex;
+    list-style: none; }
+    .last-block .stars .star {
+      margin-right: 10px; }
+    .last-block .stars .star-two {
+      opacity: 0.5; }
+
+.contacts-button {
+  display: flex;
+  position: relative;
+  top: 490px;
+  width: 100%;
+  height: 100%;
+  justify-content: space-around; }
+  .contacts-button .case {
+    width: 903px;
+    height: 300px;
+    padding-top: 170px;
+    text-align: center;
+    transition: 0.3s; }
+    .contacts-button .case:hover {
+      transition: 0.3s;
+      background-color: #4CAF50; }
+      .contacts-button .case:hover .briefcase-text {
+        color: white; }
+  .contacts-button .briefcase-text {
+    margin-top: 20px; }
+  .contacts-button .briefcase-main {
+    font-family: Oswald;
+    font-size: 24px;
+    font-weight: 400; }
+  .contacts-button .briefcase-paragraph {
+    padding-top: 22px;
+    font-family: Open Sans;
+    font-size: 14px; }
+  .contacts-button .mail-us {
+    width: 903px;
+    height: 300px;
+    padding-top: 170px;
+    text-align: center;
+    transition: 0.3s; }
+    .contacts-button .mail-us:hover {
+      transition: 0.3s;
+      background-color: #4CAF50; }
+      .contacts-button .mail-us:hover .mail-text {
+        color: white; }
+  .contacts-button .mail-image {
+    width: 35px;
+    height: 35px; }
+  .contacts-button .mail-text {
+    margin-top: 20px; }
+  .contacts-button .mail-main {
+    font-family: Oswald;
+    font-size: 24px;
+    font-weight: 400; }
+  .contacts-button .mail-paragraph {
+    padding-top: 22px;
+    font-family: Open Sans;
+    font-size: 14px; }
+
+.address {
+  width: 1806px;
+  height: 250px;
+  text-align: center;
+  position: relative;
+  top: 490px;
+  padding-top: 150px;
+  background-color: #2e2e2e; }
+  .address .address-text {
+    font-family: Oswald;
+    font-size: 13px;
+    color: #fff;
+    margin-bottom: 10px; }
+  .address .phone {
+    font-family: Oswald;
+    font-size: 13px;
+    color: #fff;
+    margin-bottom: 10px; }
+  .address .logo-contacts {
+    list-style: none;
+    display: flex;
+    justify-content: center; }
+    .address .logo-contacts .logo-item:not(:last-child) {
+      margin-right: 22px; }
+
+.copyright {
+  height: 40px;
+  text-align: center;
+  position: relative;
+  top: 480px;
+  background-color: #252525; }
+  .copyright .copyright-text {
+    padding-top: 10px;
+    color: lightgray;
+    font-family: Oswald;
+    font-size: 13px;
+    font-weight: 300; }
+
+/*# sourceMappingURL=index.css.map */
